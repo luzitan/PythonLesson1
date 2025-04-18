@@ -127,12 +127,33 @@ d = 18
 
 """
 
-n = input()
+# n = input()
+#
+# def lucky_ticket(n):
+#     if int(n[0]) + int(n[1]) + int(n[2]) == int(n[3]) + int(n[4]) + int(n[5]):
+#         print("yes")
+#     else:
+#         print("no")
+#
+# lucky_ticket(n)
 
-def lucky_ticket(n):
-    if int(n[0]) + int(n[1]) + int(n[2]) == int(n[3]) + int(n[4]) + int(n[5]):
-        print("yes")
-    else:
-        print("no")
+# или
 
-lucky_ticket(n)
+n = int(input())
+
+n6 = n % 10
+n = n // 10
+n5 = n % 10
+n = n // 10
+n4 = n % 10
+n = n // 10
+n3 = n % 10
+n = n // 10
+n2 = n % 10
+n = n // 10
+n1 = n % 10
+
+if n1 + n2 + n3 == n4 + n5 + n6:
+    print("yes")
+else:
+    print("no")
