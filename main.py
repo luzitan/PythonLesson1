@@ -210,11 +210,19 @@ print(a, b)
 # print(a, b)
 
 # или
+# a = int(input('Введите первое число: '))
+# b = int(input('Введите второе число: '))
+# print(a, b)
+# a = a, b
+# b = a[0]
+# a = a[1]
+# print(a, b)
+
+# или арифметический способ
 a = int(input('Введите первое число: '))
 b = int(input('Введите второе число: '))
 print(a, b)
-a = a, b
-b = a[0]
-a = a[1]
+a = a + b
+b = a - b
+a = a - b
 print(a, b)
-
