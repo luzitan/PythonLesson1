@@ -59,15 +59,15 @@
 3 2 1 -> no
 """
 
-n = int(input())
-m = int(input())
-k = int(input())
-
-if k % n == 0 or k % m == 0:
-    if k < n*m:
-        print("yes")
-else:
-    print("no")
+# n = int(input())
+# m = int(input())
+# k = int(input())
+#
+# if k % n == 0 or k % m == 0:
+#     if k < n*m:
+#         print("yes")
+# else:
+#     print("no")
 
 """
 Ещё задачи
